@@ -1,0 +1,60 @@
+# Daily: pull fresh numbers from the GitHub API, rebuild every asset, run the
+# gate, and commit only if something actually changed. The date printed in the
+# banner's i3bar comes from this run, so it moves forward once a day.
+name: refresh
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # 01:17 in Lima (UTC-5), just after midnight there
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          npm ci
+
+      - name: Fetch
+        run: python scripts/fetch.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # build.py ends by running verify.py, so a budget failure stops here and
+      # nothing broken is committed.
+      - name: Build and verify
+        run: python scripts/build.py
+
+      - name: Commit if anything changed
+        run: |
+          git add data/raw assets README.md
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): daily refresh $(jq -r .date data/raw/snapshot.json)"
+          git push

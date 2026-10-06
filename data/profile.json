@@ -1,6 +1,5 @@
 {
   "_about": "Single source of truth for the LimitCodev profile. Every number in README.md and in the generated SVGs comes from here or from data/raw/. Edit this file, run `python scripts/build.py`, and the README, the assets and the budget report all follow.",
-  "_frozen": "2026-10-05",
   "identity": {
     "name": "Alex Josue Ynocencio Callirgos",
     "handle": "LimitCodev",

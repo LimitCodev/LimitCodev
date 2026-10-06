@@ -1,5 +1,9 @@
 {
   "per_repo": {
+    "LimitCodev": {
+      "Python": 77046,
+      "JavaScript": 5146
+    },
     "mimesa-app": {
       "JavaScript": 14070,
       "HTML": 9177,
@@ -33,8 +37,6 @@
       "CSS": 36686,
       "Dockerfile": 173
     },
-    "LimaPay": {},
-    "Cutting-edge_POS_system": {},
     "MachineLearning_Page": {
       "HTML": 6540,
       "CSS": 2861,
@@ -45,14 +47,12 @@
       "CSS": 25954,
       "HTML": 1379
     },
-    "PIO-Music---Personal-Challenge": {},
     "LimitCodev.github.io": {
       "TypeScript": 300596,
       "CSS": 7334,
       "JavaScript": 460,
       "HTML": 338
     },
-    "unac-digital-library": {},
     "HACK-CIS_UNI_2025-IEEE_CIS_UNI": {
       "Python": 84025,
       "CSS": 45262,
@@ -65,24 +65,23 @@
       "Python": 20202,
       "CSS": 8414,
       "HTML": 5459
-    },
-    "LimitCodev": {}
+    }
   },
   "totals": {
-    "JavaScript": 203153,
-    "HTML": 99455,
+    "TypeScript": 483780,
     "CSS": 299197,
+    "Python": 216700,
+    "JavaScript": 208299,
     "PHP": 179491,
-    "Hack": 735,
     "Dart": 104971,
-    "Python": 139654,
+    "HTML": 99455,
     "C++": 25179,
     "CMake": 19744,
     "Swift": 2036,
     "C": 1488,
-    "Kotlin": 126,
-    "Objective-C": 38,
     "Dockerfile": 1292,
-    "TypeScript": 483780
+    "Hack": 735,
+    "Kotlin": 126,
+    "Objective-C": 38
   }
 }

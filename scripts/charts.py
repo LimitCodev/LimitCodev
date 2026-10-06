@@ -10,7 +10,7 @@ Two choices worth stating:
 **Bytes, not GitHub's percentage.** GitHub's per-repo language percentages are
 linguist estimates over *that* repo; summing them across repos double-counts and
 ignores vendored trees. `data/raw/languages.json` holds byte counts per repo, so
-the totals here are exact and reproducible from the frozen snapshot.
+the totals here are exact and reproducible from the daily snapshot.
 
 **Top 7 plus an aggregated tail.** Eleven languages sit under 3.2 % combined;
 drawing them would cost rows and bytes to show noise. The tail is merged into one
@@ -126,7 +126,7 @@ def render(theme: str, numbers: dict) -> tuple[str, dict]:
 
     parts.append(_rule(RULE_Y, 24, W - 24, t["line"], 0.9))
     parts.append(
-        _text(reg, f"byte counts from {numbers['repos']} public repositories · frozen snapshot",
+        _text(reg, f"byte counts from {numbers['repos']} public repositories · snapshot {numbers['date']}",
               11, 24, FOOT_BASE, t["muted"])
     )
     parts.append(_text(reg, "see README", 11, W - 24, FOOT_BASE, t["cyan"], "end"))

@@ -119,8 +119,10 @@ def load_numbers() -> dict:
     days = [d["contributionCount"] for w in cal["weeks"] for d in w["contributionDays"]]
     weeks = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in cal["weeks"]]
     ranked = sorted(langs["totals"].items(), key=lambda kv: -kv[1])
+    snapshot = json.loads((ROOT / "data/raw/snapshot.json").read_text(encoding="utf-8"))
     return {
         "profile": profile,
+        "date": snapshot["date"],
         "contributions": cal["totalContributions"],
         "commits": coll["totalCommitContributions"],
         "days": days,
@@ -226,7 +228,7 @@ def render(theme: str, numbers: dict) -> tuple[str, dict]:
             parts.append(f'<rect x="{x}" y="4" width="22" height="20" rx="2" fill="{t["arch"]}"/>')
         parts.append(_text(sem if i == 0 else reg, ws, x + 11, BAR_BASE,
                            t["bg"] if i == 0 else t["muted"], BAR_FS, "middle"))
-    parts.append(_text(reg, profile["_frozen"], W / 2, BAR_BASE, t["muted"], BAR_FS, "middle"))
+    parts.append(_text(reg, numbers["date"], W / 2, BAR_BASE, t["muted"], BAR_FS, "middle"))
 
     # status fields, laid out right to left; a cycling value is one <g> per
     # variant, each shown during its own STATUS_STEP slot
@@ -410,7 +412,7 @@ def render(theme: str, numbers: dict) -> tuple[str, dict]:
         )
     parts.append(_text(reg, "top languages", PANE_X, 358, t["muted"], 11))
     parts.append(_text(reg, " · ".join(numbers["top_langs"]), PANE_X, 376, t["bone"], 11))
-    parts.append(_text(reg, f"data frozen {profile['_frozen']}", PANE_X, 400, t["muted"], 11))
+    parts.append(_text(reg, f"updated {numbers['date']}", PANE_X, 400, t["muted"], 11))
     parts.append(_text(reg, "see README", PANE_R, FINAL_BASE, t["cyan"], 12, "end"))
 
     parts.insert(defs_slot, f"<style>{_morph_css(t)}</style>"
