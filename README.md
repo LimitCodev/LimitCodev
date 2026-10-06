@@ -20,7 +20,7 @@ I build data pipelines and real-time monitoring systems, and I harden the infras
 ## Featured work
 
 ### [Chica del Clima](https://github.com/LimitCodev/2025_NASA_Space_Apps_Challenge)
-**NASA Space Apps Challenge 2025** · Team lead, 4 people
+**NASA Space Apps Challenge 2025** · Team lead, 3 people
 
 Air-quality dashboard that turns three official data sources into a risk score for people who are exposed to pollution.
 

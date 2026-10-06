@@ -45,7 +45,7 @@
       "name": "Chica del Clima",
       "subtitle": "NASA Space Apps Challenge 2025",
       "repo": "LimitCodev/2025_NASA_Space_Apps_Challenge",
-      "role": "Team lead, 4 people",
+      "role": "Team lead, 3 people",
       "summary": "Air-quality dashboard that turns three official data sources into a risk score for people who are exposed to pollution.",
       "facts": [
         "3 APIs ingested and normalised (NASA TEMPO, OpenAQ, Open-Meteo)",
