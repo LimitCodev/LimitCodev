@@ -1,0 +1,6 @@
+# Build-time only: nothing here ships in the README payload.
+brotli==1.2.0      # fontTools needs it to read the .woff2 fonts
+fonttools==4.66.1
+numpy==2.5.3
+pillow==12.3.0
+scipy==1.18.1      # optimal assignment of portrait dots to logo dots

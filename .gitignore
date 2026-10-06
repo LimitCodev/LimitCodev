@@ -1,0 +1,18 @@
+# build tooling — reinstalled with `npm install` / `python -m venv .venv`
+node_modules/
+.venv/
+
+# scratch output: intermediates and screenshots, never committed
+.build/
+.preview/
+
+# the committed payload is assets/*.svg + README.md
+
+# python bytecode
+__pycache__/
+
+# the real photo stays local; only assets/source/portrait-grid.png is committed
+assets/source/portrait.png
+
+# local handoff notes: absolute paths, never published
+PROGRESS.md

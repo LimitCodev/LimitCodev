@@ -1,0 +1,148 @@
+{
+  "_about": "Single source of truth for the LimitCodev profile. Every number in README.md and in the generated SVGs comes from here or from data/raw/. Edit this file, run `python scripts/build.py`, and the README, the assets and the budget report all follow.",
+  "_frozen": "2026-10-05",
+  "identity": {
+    "name": "Alex Josue Ynocencio Callirgos",
+    "handle": "LimitCodev",
+    "role": "Systems engineering student",
+    "school": "Universidad Nacional del Callao",
+    "school_abbr": "UNAC",
+    "location": "Callao, Peru",
+    "timezone": "UTC-5",
+    "period": "2024 - 2028",
+    "summary": "I build data pipelines and real-time monitoring systems, and I harden the infrastructure they run on.",
+    "currently": "Real-time video analytics for the Port of Callao (VigiaCallao)."
+  },
+  "terminal": {
+    "_about": "What the banner's fastfetch prints. Real values from this machine, minus anything identifying it (no host model, IP or kernel build).",
+    "user": "josue",
+    "host": "limitcodev",
+    "os": "Arch Linux x86_64",
+    "wm": "i3",
+    "shell": "bash",
+    "editor": "neovim",
+    "stack": "Python · TypeScript · FastAPI · Flutter",
+    "now": "VigiaCallao, real-time video analytics"
+  },
+  "contact": {
+    "primary_label": "LinkedIn",
+    "primary_url": "https://www.linkedin.com/in/ynocencio-alex-342862332/"
+  },
+  "social": [
+    { "label": "Portfolio", "url": "https://limitcodev.github.io/" },
+    { "label": "YouTube", "url": "https://www.youtube.com/channel/UCVMM8TPjyRt4kkX1gCaPWoQ" },
+    { "label": "HackerRank", "url": "https://www.hackerrank.com/profile/callirgos_josue1" }
+  ],
+  "stack": [
+    { "group": "Languages", "items": ["Python", "TypeScript", "JavaScript", "SQL", "Dart", "C++", "PHP"] },
+    { "group": "Web and mobile", "items": ["FastAPI", "Flask", "React", "Flutter", "Tailwind CSS"] },
+    { "group": "Data and analytics", "items": ["PostgreSQL", "BigQuery", "Power BI", "Power Query", "Excel"] },
+    { "group": "AI and vision", "items": ["YOLOv26", "NumPy", "NASA TEMPO", "OpenAQ"] },
+    { "group": "Embedded and IoT", "items": ["ESP32", "MicroPython", "Arduino"] },
+    { "group": "Platform and security", "items": ["Azure", "GCP", "Docker", "Kubernetes", "AppArmor", "Linux"] }
+  ],
+  "projects": [
+    {
+      "name": "Chica del Clima",
+      "subtitle": "NASA Space Apps Challenge 2025",
+      "repo": "LimitCodev/2025_NASA_Space_Apps_Challenge",
+      "role": "Team lead, 4 people",
+      "summary": "Air-quality dashboard that turns three official data sources into a risk score for people who are exposed to pollution.",
+      "facts": [
+        "3 APIs ingested and normalised (NASA TEMPO, OpenAQ, Open-Meteo)",
+        "Tropospheric NO2, PM2.5 and AQI with 24 h forecasts",
+        "Vulnerability scoring for at-risk groups by zone"
+      ],
+      "stack": ["FastAPI", "JavaScript", "HTML", "CSS"],
+      "outcome": "Galactic Problem Solver certificate, NASA Space Apps Challenge (Oct 2025)",
+      "certificate": "https://drive.google.com/file/d/1L6f8nJNxbonqMQjJrEAU1bTJpitkozWK/view?usp=sharing"
+    },
+    {
+      "name": "VigiaCallao",
+      "subtitle": "Finalist, Reto Callao Tech 2026 · Congress of the Republic of Peru",
+      "repo": "LimitCodev/VigiaCallao",
+      "role": "Detection, zones and backend",
+      "summary": "Control centre that watches the Port of Callao with real-time video analytics and pushes alerts to an operator console.",
+      "facts": [
+        "YOLOv26 object detection with per-zone monitoring",
+        "Flask + Socket.IO event stream to the operator console",
+        "Flutter control centre over a REST + WebSocket backend"
+      ],
+      "stack": ["Python", "Dart", "YOLOv26", "Flask"],
+      "outcome": "Certificate of recognition from the Science, Innovation and Technology Committee (CCIT), Congress of the Republic of Peru (Jul 2026)",
+      "certificate": "https://drive.google.com/file/d/1hcyT9XxvSF03BhdMRCb-vInzagWpYaax/view?usp=sharing"
+    }
+  ],
+  "achievements": [
+    { "title": "Galactic Problem Solver", "issuer": "NASA Space Apps Challenge", "date": "Oct 2025" },
+    { "title": "Finalist, Reto Callao Tech", "issuer": "Congress of the Republic of Peru (CCIT)", "date": "Jul 2026" },
+    { "title": "Participant, Torneo Peruano de Programacion", "issuer": "UPC", "date": "Jul 2025" },
+    { "title": "PMBOK 8th edition, foundational training", "issuer": "CIP", "date": "2026" },
+    { "title": "Data Analytics specialisation", "issuer": "Netzun", "date": "2025" }
+  ],
+  "education": {
+    "degree": "Systems Engineering",
+    "school": "Universidad Nacional del Callao",
+    "detail": "Bachelor's degree in progress, Tercio Superior of the School of Systems Engineering",
+    "period": "2024 - 2028 (expected)"
+  },
+  "badges": [
+    { "alt": "Arch Linux", "url": "https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" },
+    { "alt": "NASA Space Apps 2025: Galactic Problem Solver certificate", "url": "https://img.shields.io/badge/NASA_Space_Apps-2025-0B3D91?style=flat-square&logo=nasa&logoColor=white", "project": "Chica del Clima" },
+    { "alt": "Congress of the Republic of Peru: Reto Callao Tech 2026 certificate", "url": "https://img.shields.io/badge/Congress_of_Peru-Reto_Callao_Tech_2026-0550AE?style=flat-square", "project": "VigiaCallao" }
+  ],
+  "counter": {
+    "provider": "visitor-badge.laobi.icu",
+    "url": "https://visitor-badge.laobi.icu/badge?page_id=LimitCodev.LimitCodev&left_color=%23555555&right_color=%230969DA&left_text=views",
+    "note": "Keep this exact page_id: it is the counter the profile has always used, so changing provider or id restarts the count from zero (it happened once, 373 -> 1, when komarev replaced it). right_color #0969DA (Primer accent) carries white digits at 5.1:1 and reads on both themes. Every GET increments it, so verify.py budgets it at a fixed 1,310 B instead of fetching it."
+  },
+  "design": {
+    "_source": "Surfaces are GitHub Primer tokens, verbatim, so the SVG background equals the page background and the rounded corners disappear - the panel reads as page furniture instead of a boxed image. Tokens read from primer/primitives: src/tokens/base/color/{dark,light}/*.json5 and src/tokens/functional/color/{bgColor,fgColor,borderColor}.json5. Accents are blue only, so the panel sits with GitHub and the Arch logo: arch is Arch Linux blue (#1793D1, the official logo colour; #0969DA on light, which is Primer accent), sky and cyan are GitHub's own ANSI/syntax blues (dark #79C0FF / #39C5CF, light #0550AE / #1B7C83).",
+    "_surfaces": {
+      "dark": {
+        "bg": "#0D1117  = bgColor.default (neutral.1)",
+        "panel": "#151B23 = bgColor.muted (neutral.2)",
+        "panel2": "#010409 = bgColor.inset (neutral.0)",
+        "line": "#3D444D  = borderColor.default (neutral.7)",
+        "bone": "#F0F6FC  = fgColor.default (neutral.12)",
+        "muted": "#9198A1  = fgColor.muted (neutral.9)"
+      },
+      "light": {
+        "bg": "#FFFFFF   = bgColor.default (neutral.0)",
+        "panel": "#F6F8FA  = bgColor.muted (neutral.1)",
+        "panel2": "#EFF2F5  = neutral.2",
+        "line": "#D1D9E0  = borderColor.default (neutral.6)",
+        "bone": "#1F2328  = fgColor.default (neutral.13)",
+        "muted": "#59636E  = fgColor.muted (neutral.9)"
+      }
+    },
+    "dark": {
+      "bg": "#0D1117",
+      "panel": "#151B23",
+      "panel2": "#010409",
+      "line": "#3D444D",
+      "sky": "#79C0FF",
+      "cyan": "#39C5CF",
+      "arch": "#1793D1",
+      "bone": "#F0F6FC",
+      "muted": "#9198A1"
+    },
+    "light": {
+      "bg": "#FFFFFF",
+      "panel": "#F6F8FA",
+      "panel2": "#EFF2F5",
+      "line": "#D1D9E0",
+      "sky": "#0550AE",
+      "cyan": "#1B7C83",
+      "arch": "#0969DA",
+      "bone": "#1F2328",
+      "muted": "#59636E"
+    },
+    "budget_kb": 150,
+    "font": "IBM Plex Mono (OFL), subset to outlines at build time"
+  },
+  "projects_excluded": {
+    "_note": "Repo names deliberately left out of the featured block; they stay in the full table in the engineering notes.",
+    "names": ["mimesa-app", "unac-digital-library", "LimaPay", "GOLER-", "Lista_de_invitados", "UNACedula"]
+  }
+}

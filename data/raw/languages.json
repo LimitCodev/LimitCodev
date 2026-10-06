@@ -1,0 +1,88 @@
+{
+  "per_repo": {
+    "mimesa-app": {
+      "JavaScript": 14070,
+      "HTML": 9177,
+      "CSS": 6263
+    },
+    "Lista_de_invitados": {
+      "CSS": 8594,
+      "JavaScript": 8026,
+      "HTML": 2056
+    },
+    "GOLER-": {
+      "PHP": 179491,
+      "CSS": 157829,
+      "JavaScript": 52333,
+      "Hack": 735
+    },
+    "VigiaCallao": {
+      "Dart": 104971,
+      "Python": 35427,
+      "C++": 25179,
+      "CMake": 19744,
+      "Swift": 2036,
+      "HTML": 1529,
+      "C": 1488,
+      "Kotlin": 126,
+      "Objective-C": 38
+    },
+    "UNACedula": {
+      "JavaScript": 63576,
+      "HTML": 43601,
+      "CSS": 36686,
+      "Dockerfile": 173
+    },
+    "LimaPay": {},
+    "Cutting-edge_POS_system": {},
+    "MachineLearning_Page": {
+      "HTML": 6540,
+      "CSS": 2861,
+      "JavaScript": 344
+    },
+    "Mimo-Project-1": {
+      "TypeScript": 183184,
+      "CSS": 25954,
+      "HTML": 1379
+    },
+    "PIO-Music---Personal-Challenge": {},
+    "LimitCodev.github.io": {
+      "TypeScript": 300596,
+      "CSS": 7334,
+      "JavaScript": 460,
+      "HTML": 338
+    },
+    "unac-digital-library": {},
+    "HACK-CIS_UNI_2025-IEEE_CIS_UNI": {
+      "Python": 84025,
+      "CSS": 45262,
+      "JavaScript": 39588,
+      "HTML": 29376,
+      "Dockerfile": 1119
+    },
+    "2025_NASA_Space_Apps_Challenge": {
+      "JavaScript": 24756,
+      "Python": 20202,
+      "CSS": 8414,
+      "HTML": 5459
+    },
+    "LimitCodev": {}
+  },
+  "totals": {
+    "JavaScript": 203153,
+    "HTML": 99455,
+    "CSS": 299197,
+    "PHP": 179491,
+    "Hack": 735,
+    "Dart": 104971,
+    "Python": 139654,
+    "C++": 25179,
+    "CMake": 19744,
+    "Swift": 2036,
+    "C": 1488,
+    "Kotlin": 126,
+    "Objective-C": 38,
+    "Dockerfile": 1292,
+    "TypeScript": 483780
+  }
+}

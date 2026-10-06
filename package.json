@@ -1,0 +1,15 @@
+{
+  "name": "limitcodev-profile-assets",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Build tooling for the LimitCodev GitHub profile README: SVG generators, svgo, and the budget gate.",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "verify": "python scripts/verify.py",
+    "preview": "node scripts/preview.js"
+  },
+  "devDependencies": {
+    "simple-icons": "16.34.0",
+    "svgo": "4.1.0"
+  }
+}

@@ -1,0 +1,45 @@
+# Rebuild every asset from data/ and fail if anything drifted or busts a budget.
+# The committed SVGs and README.md must be exactly what `scripts/build.py`
+# produces, so nobody can hand-edit the payload and skip the gate.
+name: build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          npm ci
+
+      # build.py ends by running verify.py, so a budget failure fails this step.
+      - name: Build and verify
+        run: python scripts/build.py
+
+      - name: Committed payload matches the build
+        run: git diff --exit-code -- README.md assets/
