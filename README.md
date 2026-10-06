@@ -20,7 +20,7 @@ I build data pipelines and real-time monitoring systems, and I harden the infras
 ## Featured work
 
 ### [Chica del Clima](https://github.com/LimitCodev/2025_NASA_Space_Apps_Challenge)
-**NASA Space Apps Challenge 2025** · Team lead, 3 people
+**NASA Space Apps Challenge 2025** · Backend, team of 4
 
 Air-quality dashboard that turns three official data sources into a risk score for people who are exposed to pollution.
 
@@ -35,7 +35,7 @@ Air-quality dashboard that turns three official data sources into a risk score f
 <a href="https://drive.google.com/file/d/1L6f8nJNxbonqMQjJrEAU1bTJpitkozWK/view?usp=sharing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/verified-dark.svg"><img src="assets/verified-light.svg" height="28" alt="Verified: open the Chica del Clima certificate"></picture></a>
 
 ### [VigiaCallao](https://github.com/LimitCodev/VigiaCallao)
-**Finalist, Reto Callao Tech 2026 · Congress of the Republic of Peru** · Detection, zones and backend
+**Finalist, Reto Callao Tech 2026 · Congress of the Republic of Peru** · Machine learning, team of 3
 
 Control centre that watches the Port of Callao with real-time video analytics and pushes alerts to an operator console.
 

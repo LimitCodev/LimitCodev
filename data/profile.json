@@ -45,7 +45,7 @@
       "name": "Chica del Clima",
       "subtitle": "NASA Space Apps Challenge 2025",
       "repo": "LimitCodev/2025_NASA_Space_Apps_Challenge",
-      "role": "Team lead, 3 people",
+      "role": "Backend, team of 4",
       "summary": "Air-quality dashboard that turns three official data sources into a risk score for people who are exposed to pollution.",
       "facts": [
         "3 APIs ingested and normalised (NASA TEMPO, OpenAQ, Open-Meteo)",
@@ -60,7 +60,7 @@
       "name": "VigiaCallao",
       "subtitle": "Finalist, Reto Callao Tech 2026 · Congress of the Republic of Peru",
       "repo": "LimitCodev/VigiaCallao",
-      "role": "Detection, zones and backend",
+      "role": "Machine learning, team of 3",
       "summary": "Control centre that watches the Port of Callao with real-time video analytics and pushes alerts to an operator console.",
       "facts": [
         "YOLOv26 object detection with per-zone monitoring",
