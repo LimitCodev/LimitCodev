@@ -1,5 +1,8 @@
 {
   "per_repo": {
+    "pipeline-datafest-2026": {
+      "Python": 41032
+    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
@@ -70,7 +73,7 @@
   "totals": {
     "TypeScript": 483780,
     "CSS": 299197,
-    "Python": 220437,
+    "Python": 261469,
     "JavaScript": 208299,
     "PHP": 179491,
     "Dart": 104971,
