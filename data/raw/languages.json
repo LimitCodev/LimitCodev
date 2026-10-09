@@ -1,11 +1,11 @@
 {
   "per_repo": {
-    "pipeline-datafest-2026": {
-      "Python": 41032
-    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
+    },
+    "pipeline-datafest-2026": {
+      "Python": 41032
     },
     "mimesa-app": {
       "JavaScript": 14070,
