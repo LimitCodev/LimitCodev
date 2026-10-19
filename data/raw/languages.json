@@ -1,5 +1,25 @@
 {
   "per_repo": {
+    "EncuentraME": {
+      "PHP": 37117,
+      "CSS": 15593,
+      "JavaScript": 14262,
+      "Hack": 360
+    },
+    "CINEsesitasVerlas": {
+      "PHP": 20302,
+      "CSS": 10677,
+      "JavaScript": 4245,
+      "Hack": 349
+    },
+    "BlueTalk": {
+      "Dart": 634367,
+      "HTML": 48849,
+      "Python": 8817,
+      "Java": 2496,
+      "Shell": 1190,
+      "Kotlin": 125
+    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
@@ -71,20 +91,22 @@
     }
   },
   "totals": {
+    "Dart": 739338,
     "TypeScript": 483780,
-    "CSS": 299197,
-    "Python": 261469,
-    "JavaScript": 208299,
-    "PHP": 179491,
-    "Dart": 104971,
-    "HTML": 99455,
+    "CSS": 325467,
+    "Python": 270286,
+    "PHP": 236910,
+    "JavaScript": 226806,
+    "HTML": 148304,
     "C++": 25179,
     "CMake": 19744,
+    "Java": 2496,
     "Swift": 2036,
     "C": 1488,
+    "Hack": 1444,
     "Dockerfile": 1292,
-    "Hack": 735,
-    "Kotlin": 126,
+    "Shell": 1190,
+    "Kotlin": 251,
     "Objective-C": 38
   }
 }
