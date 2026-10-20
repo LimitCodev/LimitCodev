@@ -1,16 +1,20 @@
 {
   "per_repo": {
+    "CINEsesitasVerlas": {
+      "PHP": 43680,
+      "CSS": 14375,
+      "JavaScript": 11922,
+      "Hack": 369
+    },
     "EncuentraME": {
-      "PHP": 37117,
-      "CSS": 15593,
-      "JavaScript": 14262,
+      "PHP": 56219,
+      "JavaScript": 24531,
+      "CSS": 19870,
       "Hack": 360
     },
-    "CINEsesitasVerlas": {
-      "PHP": 20302,
-      "CSS": 10677,
-      "JavaScript": 4245,
-      "Hack": 349
+    "LimitCodev": {
+      "Python": 80783,
+      "JavaScript": 5146
     },
     "BlueTalk": {
       "Dart": 634367,
@@ -19,10 +23,6 @@
       "Java": 2496,
       "Shell": 1190,
       "Kotlin": 125
-    },
-    "LimitCodev": {
-      "Python": 80783,
-      "JavaScript": 5146
     },
     "pipeline-datafest-2026": {
       "Python": 41032
@@ -93,17 +93,17 @@
   "totals": {
     "Dart": 739338,
     "TypeScript": 483780,
-    "CSS": 325467,
+    "CSS": 333442,
+    "PHP": 279390,
     "Python": 270286,
-    "PHP": 236910,
-    "JavaScript": 226806,
+    "JavaScript": 244752,
     "HTML": 148304,
     "C++": 25179,
     "CMake": 19744,
     "Java": 2496,
     "Swift": 2036,
     "C": 1488,
-    "Hack": 1444,
+    "Hack": 1464,
     "Dockerfile": 1292,
     "Shell": 1190,
     "Kotlin": 251,
