@@ -1,5 +1,9 @@
 {
   "per_repo": {
+    "LimitCodev": {
+      "Python": 80783,
+      "JavaScript": 5146
+    },
     "CINEsesitasVerlas": {
       "PHP": 43680,
       "CSS": 14375,
@@ -11,10 +15,6 @@
       "JavaScript": 24531,
       "CSS": 19870,
       "Hack": 360
-    },
-    "LimitCodev": {
-      "Python": 80783,
-      "JavaScript": 5146
     },
     "BlueTalk": {
       "Dart": 634367,
