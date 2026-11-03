@@ -1,5 +1,13 @@
 {
   "per_repo": {
+    "BlueTalk": {
+      "Dart": 891870,
+      "Kotlin": 60104,
+      "HTML": 48849,
+      "Python": 8817,
+      "Java": 3246,
+      "Shell": 1570
+    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
@@ -15,14 +23,6 @@
       "JavaScript": 24531,
       "CSS": 19870,
       "Hack": 360
-    },
-    "BlueTalk": {
-      "Dart": 634367,
-      "HTML": 48849,
-      "Python": 8817,
-      "Java": 2496,
-      "Shell": 1190,
-      "Kotlin": 125
     },
     "pipeline-datafest-2026": {
       "Python": 41032
@@ -91,22 +91,22 @@
     }
   },
   "totals": {
-    "Dart": 739338,
+    "Dart": 996841,
     "TypeScript": 483780,
     "CSS": 333442,
     "PHP": 279390,
     "Python": 270286,
     "JavaScript": 244752,
     "HTML": 148304,
+    "Kotlin": 60230,
     "C++": 25179,
     "CMake": 19744,
-    "Java": 2496,
+    "Java": 3246,
     "Swift": 2036,
+    "Shell": 1570,
     "C": 1488,
     "Hack": 1464,
     "Dockerfile": 1292,
-    "Shell": 1190,
-    "Kotlin": 251,
     "Objective-C": 38
   }
 }
