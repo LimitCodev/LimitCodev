@@ -1,5 +1,9 @@
 {
   "per_repo": {
+    "LimitCodev": {
+      "Python": 80783,
+      "JavaScript": 5146
+    },
     "BlueTalk": {
       "Dart": 891870,
       "Kotlin": 60104,
@@ -7,10 +11,6 @@
       "Python": 8817,
       "Java": 3246,
       "Shell": 1570
-    },
-    "LimitCodev": {
-      "Python": 80783,
-      "JavaScript": 5146
     },
     "CINEsesitasVerlas": {
       "PHP": 43680,
