@@ -1,5 +1,11 @@
 {
   "per_repo": {
+    "LimitCodev.github.io": {
+      "TypeScript": 244903,
+      "CSS": 7334,
+      "HTML": 498,
+      "JavaScript": 460
+    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
@@ -70,12 +76,6 @@
       "CSS": 25954,
       "HTML": 1379
     },
-    "LimitCodev.github.io": {
-      "TypeScript": 300596,
-      "CSS": 7334,
-      "JavaScript": 460,
-      "HTML": 338
-    },
     "HACK-CIS_UNI_2025-IEEE_CIS_UNI": {
       "Python": 84025,
       "CSS": 45262,
@@ -92,12 +92,12 @@
   },
   "totals": {
     "Dart": 996841,
-    "TypeScript": 483780,
+    "TypeScript": 428087,
     "CSS": 333442,
     "PHP": 279390,
     "Python": 270286,
     "JavaScript": 244752,
-    "HTML": 148304,
+    "HTML": 148464,
     "Kotlin": 60230,
     "C++": 25179,
     "CMake": 19744,
