@@ -1,22 +1,23 @@
 {
   "per_repo": {
-    "LimitCodev.github.io": {
-      "TypeScript": 244903,
-      "CSS": 7334,
-      "HTML": 498,
-      "JavaScript": 460
+    "BlueTalk": {
+      "Dart": 986155,
+      "Kotlin": 56776,
+      "HTML": 49418,
+      "Python": 18848,
+      "Shell": 7861,
+      "Java": 3246,
+      "CSS": 510
     },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
     },
-    "BlueTalk": {
-      "Dart": 891870,
-      "Kotlin": 60104,
-      "HTML": 48849,
-      "Python": 8817,
-      "Java": 3246,
-      "Shell": 1570
+    "LimitCodev.github.io": {
+      "TypeScript": 244903,
+      "CSS": 7334,
+      "HTML": 498,
+      "JavaScript": 460
     },
     "CINEsesitasVerlas": {
       "PHP": 43680,
@@ -91,19 +92,19 @@
     }
   },
   "totals": {
-    "Dart": 996841,
+    "Dart": 1091126,
     "TypeScript": 428087,
-    "CSS": 333442,
+    "CSS": 333952,
+    "Python": 280317,
     "PHP": 279390,
-    "Python": 270286,
     "JavaScript": 244752,
-    "HTML": 148464,
-    "Kotlin": 60230,
+    "HTML": 149033,
+    "Kotlin": 56902,
     "C++": 25179,
     "CMake": 19744,
+    "Shell": 7861,
     "Java": 3246,
     "Swift": 2036,
-    "Shell": 1570,
     "C": 1488,
     "Hack": 1464,
     "Dockerfile": 1292,
