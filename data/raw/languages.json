@@ -1,5 +1,9 @@
 {
   "per_repo": {
+    "LimitCodev": {
+      "Python": 80783,
+      "JavaScript": 5146
+    },
     "BlueTalk": {
       "Dart": 986155,
       "Kotlin": 56776,
@@ -8,10 +12,6 @@
       "Shell": 7861,
       "Java": 3246,
       "CSS": 510
-    },
-    "LimitCodev": {
-      "Python": 80783,
-      "JavaScript": 5146
     },
     "LimitCodev.github.io": {
       "TypeScript": 244903,
