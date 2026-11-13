@@ -1,11 +1,11 @@
 {
   "per_repo": {
     "BlueTalk": {
-      "Dart": 986155,
-      "Kotlin": 56776,
+      "Dart": 1149033,
+      "Kotlin": 57199,
       "HTML": 49418,
       "Python": 18848,
-      "Shell": 7861,
+      "Shell": 7883,
       "Java": 3246,
       "CSS": 510
     },
@@ -92,17 +92,17 @@
     }
   },
   "totals": {
-    "Dart": 1091126,
+    "Dart": 1254004,
     "TypeScript": 428087,
     "CSS": 333952,
     "Python": 280317,
     "PHP": 279390,
     "JavaScript": 244752,
     "HTML": 149033,
-    "Kotlin": 56902,
+    "Kotlin": 57325,
     "C++": 25179,
     "CMake": 19744,
-    "Shell": 7861,
+    "Shell": 7883,
     "Java": 3246,
     "Swift": 2036,
     "C": 1488,
