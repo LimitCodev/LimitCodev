@@ -1,23 +1,27 @@
 {
   "per_repo": {
-    "bluetalk-beta": {
-      "HTML": 25584
+    "bluetalk-ruleta": {
+      "HTML": 95559,
+      "JavaScript": 11768
     },
-    "lukia": {
-      "HTML": 6429
+    "bluetalk-beta": {
+      "HTML": 70193
+    },
+    "BlueTalk": {
+      "Dart": 1163722,
+      "HTML": 113405,
+      "Kotlin": 57199,
+      "Python": 18848,
+      "Shell": 12929,
+      "Java": 3246,
+      "CSS": 510
     },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
     },
-    "BlueTalk": {
-      "Dart": 1149033,
-      "Kotlin": 57199,
-      "HTML": 49418,
-      "Python": 18848,
-      "Shell": 7883,
-      "Java": 3246,
-      "CSS": 510
+    "lukia": {
+      "HTML": 6429
     },
     "LimitCodev.github.io": {
       "TypeScript": 244903,
@@ -98,17 +102,17 @@
     }
   },
   "totals": {
-    "Dart": 1254004,
+    "Dart": 1268693,
     "TypeScript": 428087,
+    "HTML": 385201,
     "CSS": 333952,
     "Python": 280317,
     "PHP": 279390,
-    "JavaScript": 244752,
-    "HTML": 181046,
+    "JavaScript": 256520,
     "Kotlin": 57325,
     "C++": 25179,
     "CMake": 19744,
-    "Shell": 7883,
+    "Shell": 12929,
     "Java": 3246,
     "Swift": 2036,
     "C": 1488,
