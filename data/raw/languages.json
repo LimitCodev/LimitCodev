@@ -1,5 +1,9 @@
 {
   "per_repo": {
+    "LimitCodev": {
+      "Python": 80783,
+      "JavaScript": 5146
+    },
     "bluetalk-ruleta": {
       "HTML": 95559,
       "JavaScript": 11768
@@ -15,10 +19,6 @@
       "Shell": 12929,
       "Java": 3246,
       "CSS": 510
-    },
-    "LimitCodev": {
-      "Python": 80783,
-      "JavaScript": 5146
     },
     "lukia": {
       "HTML": 6429
