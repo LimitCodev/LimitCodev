@@ -1,5 +1,8 @@
 {
   "per_repo": {
+    "lukia": {
+      "HTML": 6459
+    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
@@ -19,9 +22,6 @@
       "Shell": 12929,
       "Java": 3246,
       "CSS": 510
-    },
-    "lukia": {
-      "HTML": 6429
     },
     "LimitCodev.github.io": {
       "TypeScript": 244903,
@@ -104,7 +104,7 @@
   "totals": {
     "Dart": 1268693,
     "TypeScript": 428087,
-    "HTML": 385201,
+    "HTML": 385231,
     "CSS": 333952,
     "Python": 280317,
     "PHP": 279390,
