@@ -1,11 +1,11 @@
 {
   "per_repo": {
-    "lukia": {
-      "HTML": 6459
-    },
     "LimitCodev": {
       "Python": 80783,
       "JavaScript": 5146
+    },
+    "lukia": {
+      "HTML": 6459
     },
     "bluetalk-ruleta": {
       "HTML": 95559,
